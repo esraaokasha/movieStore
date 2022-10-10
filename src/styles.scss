@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Libre+Baskerville&family=Montserrat+Alternates:ital,wght@1,200&family=Pacifico&family=Playfair+Display&display=swap');
+
+$bgColor:#131722;
+$lightBgColor:#24baef;
+$bgTransparent:rgba(36,186,239,0.6);
+$fontColor:#fff;
+$borderColor:#a8a8a83d;
+$borderHeight:1px;
+$secondFontColor:#949cb0;
+
+.secondFontColor{
+    color: $secondFontColor;
+}
+
+.btn-mine{
+    background-color: $lightBgColor;
+    color: $fontColor;
+}
+
+.btn-outline-mine{
+    color: $lightBgColor;
+    border: solid 1px $lightBgColor;
+}
+
+body{
+    background-color: $bgColor !important;
+    color: $fontColor;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.vote{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background-color: $lightBgColor;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.brdr{
+    height: $borderHeight;
+    background-color: $borderColor;
+}
+
+.bgColor{
+    background-color: $bgColor;
+}
+
+.nav-shadow{
+    box-shadow: 0 0 8px rgba(51,51,51,0.3);
+}
+
+.navbar{
+    top:0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+
+

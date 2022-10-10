@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 d-flex justify-content-center align-items-center ">
+
+            <div class="caption">
+                <div class="brdr w-25"></div>
+                <h2>trending <br> movies <br> to watch now</h2>
+                <p class="fw-light">most watched movies by days</p>
+                <div class="brdr w-75"></div>
+            </div>
+            
+        </div>
+
+        <div *ngFor="let movie of trendingMovies" class="col-md-2">
+            <div class="movie" [routerLink]="['/moviedetails',movie.media_type,movie.id]">
+                <img [src]="imgPrefix+movie.poster_path" class="img-fluid">
+                <h3 class="h6 mt-2">{{movie.title}}{{movie.name}}</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
